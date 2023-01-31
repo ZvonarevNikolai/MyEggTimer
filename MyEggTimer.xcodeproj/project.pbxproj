@@ -13,6 +13,7 @@
 		E532A751298947F900A7AF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E532A74F298947F900A7AF0B /* Main.storyboard */; };
 		E532A753298947FA00A7AF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E532A752298947FA00A7AF0B /* Assets.xcassets */; };
 		E532A756298947FA00A7AF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E532A754298947FA00A7AF0B /* LaunchScreen.storyboard */; };
+		E532A75E29895F0800A7AF0B /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E532A75D29895F0800A7AF0B /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E532A752298947FA00A7AF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E532A755298947FA00A7AF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E532A757298947FA00A7AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E532A75D29895F0800A7AF0B /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E532A748298947F900A7AF0B /* MyEggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				E532A75D29895F0800A7AF0B /* alarm_sound.mp3 */,
 				E532A749298947F900A7AF0B /* AppDelegate.swift */,
 				E532A74B298947F900A7AF0B /* SceneDelegate.swift */,
 				E532A74D298947F900A7AF0B /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				E532A756298947FA00A7AF0B /* LaunchScreen.storyboard in Resources */,
 				E532A753298947FA00A7AF0B /* Assets.xcassets in Resources */,
+				E532A75E29895F0800A7AF0B /* alarm_sound.mp3 in Resources */,
 				E532A751298947F900A7AF0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
